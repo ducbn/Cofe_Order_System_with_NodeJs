@@ -6,7 +6,7 @@ const { authRequired } = require('../middleware/authMiddleware');
 const { requireRole } = require('../middleware/authMiddleware');
 
 router.post('/', authRequired, requireRole('admin'), menuItemController.createMenuItem);
-router.get('/', authRequired, menuItemController.getAllMenuItems);
+router.get('/', menuItemController.getAllMenuItems);
 router.put('/:id', authRequired, requireRole('admin'), menuItemController.updateMenuItem);
 router.delete('/:id', authRequired, requireRole('admin'), menuItemController.deleteMenuItem);
 

@@ -3,13 +3,13 @@ const mongoose = require('mongoose');
 const OrderItemSchema = new mongoose.Schema({
   order: { type: mongoose.Schema.Types.ObjectId, ref: 'Order', required: true },
   menuItem: { type: mongoose.Schema.Types.ObjectId, ref: 'MenuItem', required: true },
-  quantity: { type: Number, default: 1 },
-  note: { type: String },
+  quantity: { type: Number, required: true },
+  price: { type: Number, required: true },
   status: {
     type: String,
-    enum: ['waiting', 'preparing', 'done', 'served'],
-    default: 'waiting',
-  },
-}, { timestamps: true });
+    enum: ['pending', 'preparing', 'done', 'served'],
+    default: 'pending'
+  }
+});
 
 module.exports = mongoose.model('OrderItem', OrderItemSchema);
