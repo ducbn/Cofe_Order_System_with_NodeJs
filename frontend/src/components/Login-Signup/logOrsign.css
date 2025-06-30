@@ -128,7 +128,6 @@ a, a:hover {
 }
 
 .myform-area .form-area .form-input input, .myform-area .form-area .form-input textarea {
-    text-transform: capitalize;
     width: 100%;
     box-sizing: border-box;
     outline: none;
