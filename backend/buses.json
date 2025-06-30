@@ -1,0 +1,222 @@
+[
+  {
+    "CompanyName": "FUTA Bus Lines",
+    "busType": "Giường nằm",
+    "busNumber": "51B-12345",
+    "startCity": "Hà Nội",
+    "destination": "Đà Nẵng",
+    "totalSeats": "40",
+    "availableSeats": "22",
+    "pricePerSeat": "450000",
+    "date": "22/08/2025"
+  },
+  {
+    "CompanyName": "Mai Linh",
+    "busType": "Limousine",
+    "busNumber": "43C-98765",
+    "startCity": "Hà Nội",
+    "destination": "Huế",
+    "totalSeats": "32",
+    "availableSeats": "12",
+    "pricePerSeat": "500000",
+    "date": "23/08/2025"
+  },
+  {
+    "CompanyName": "Phương Trang",
+    "busType": "Giường nằm",
+    "busNumber": "79D-11111",
+    "startCity": "TP.HCM",
+    "destination": "Cần Thơ",
+    "totalSeats": "40",
+    "availableSeats": "28",
+    "pricePerSeat": "150000",
+    "date": "24/08/2025"
+  },
+  {
+    "CompanyName": "Xe Khánh Hòa",
+    "busType": "Limousine",
+    "busNumber": "60F-22222",
+    "startCity": "TP.HCM",
+    "destination": "Nha Trang",
+    "totalSeats": "28",
+    "availableSeats": "7",
+    "pricePerSeat": "300000",
+    "date": "24/08/2025"
+  },
+  {
+    "CompanyName": "Thanh Buoi",
+    "busType": "Giường nằm",
+    "busNumber": "65B-34567",
+    "startCity": "Cần Thơ",
+    "destination": "Đà Lạt",
+    "totalSeats": "36",
+    "availableSeats": "15",
+    "pricePerSeat": "350000",
+    "date": "25/08/2025"
+  },
+  {
+    "CompanyName": "Xe Hải Âu",
+    "busType": "Limousine",
+    "busNumber": "29H-45678",
+    "startCity": "Hà Nội",
+    "destination": "Hải Phòng",
+    "totalSeats": "16",
+    "availableSeats": "4",
+    "pricePerSeat": "120000",
+    "date": "25/08/2025"
+  },
+  {
+    "CompanyName": "Xe Tâm Hạnh",
+    "busType": "Giường nằm",
+    "busNumber": "47G-23456",
+    "startCity": "Huế",
+    "destination": "Nha Trang",
+    "totalSeats": "40",
+    "availableSeats": "18",
+    "pricePerSeat": "400000",
+    "date": "26/08/2025"
+  },
+  {
+    "CompanyName": "Phúc Xuyên",
+    "busType": "Limousine",
+    "busNumber": "88A-67890",
+    "startCity": "Quảng Ninh",
+    "destination": "Hà Nội",
+    "totalSeats": "30",
+    "availableSeats": "10",
+    "pricePerSeat": "200000",
+    "date": "26/08/2025"
+  },
+  {
+    "CompanyName": "Hoàng Long",
+    "busType": "Giường nằm",
+    "busNumber": "30E-98765",
+    "startCity": "Hà Nội",
+    "destination": "TP.HCM",
+    "totalSeats": "42",
+    "availableSeats": "20",
+    "pricePerSeat": "800000",
+    "date": "27/08/2025"
+  },
+  {
+    "CompanyName": "Đức Tâm",
+    "busType": "Limousine",
+    "busNumber": "92B-11122",
+    "startCity": "Đà Nẵng",
+    "destination": "Quy Nhơn",
+    "totalSeats": "28",
+    "availableSeats": "6",
+    "pricePerSeat": "280000",
+    "date": "27/08/2025"
+  },
+  {
+    "CompanyName": "Sao Việt",
+    "busType": "Giường nằm",
+    "busNumber": "29B-22334",
+    "startCity": "Hà Nội",
+    "destination": "Lào Cai",
+    "totalSeats": "36",
+    "availableSeats": "8",
+    "pricePerSeat": "350000",
+    "date": "28/08/2025"
+  },
+  {
+    "CompanyName": "Xe Hà Linh",
+    "busType": "Limousine",
+    "busNumber": "51F-44556",
+    "startCity": "TP.HCM",
+    "destination": "Buôn Ma Thuột",
+    "totalSeats": "28",
+    "availableSeats": "10",
+    "pricePerSeat": "400000",
+    "date": "28/08/2025"
+  },
+  {
+    "CompanyName": "Xe Đức Minh",
+    "busType": "Giường nằm",
+    "busNumber": "79C-66778",
+    "startCity": "Nha Trang",
+    "destination": "Đà Lạt",
+    "totalSeats": "30",
+    "availableSeats": "13",
+    "pricePerSeat": "250000",
+    "date": "29/08/2025"
+  },
+  {
+    "CompanyName": "Cúc Tùng",
+    "busType": "Limousine",
+    "busNumber": "63H-99887",
+    "startCity": "Cần Thơ",
+    "destination": "Vũng Tàu",
+    "totalSeats": "28",
+    "availableSeats": "5",
+    "pricePerSeat": "300000",
+    "date": "29/08/2025"
+  },
+  {
+    "CompanyName": "Minh Quốc",
+    "busType": "Giường nằm",
+    "busNumber": "18K-44321",
+    "startCity": "Nam Định",
+    "destination": "Hà Nội",
+    "totalSeats": "36",
+    "availableSeats": "16",
+    "pricePerSeat": "100000",
+    "date": "30/08/2025"
+  },
+  {
+    "CompanyName": "Xe An Phú",
+    "busType": "Limousine",
+    "busNumber": "93E-55677",
+    "startCity": "Gia Lai",
+    "destination": "Đà Nẵng",
+    "totalSeats": "32",
+    "availableSeats": "9",
+    "pricePerSeat": "500000",
+    "date": "30/08/2025"
+  },
+  {
+    "CompanyName": "Tân Niên",
+    "busType": "Giường nằm",
+    "busNumber": "62K-11223",
+    "startCity": "Long An",
+    "destination": "TP.HCM",
+    "totalSeats": "40",
+    "availableSeats": "20",
+    "pricePerSeat": "100000",
+    "date": "31/08/2025"
+  },
+  {
+    "CompanyName": "Xe Quang Hạnh",
+    "busType": "Limousine",
+    "busNumber": "35F-11223",
+    "startCity": "Thanh Hóa",
+    "destination": "Nghệ An",
+    "totalSeats": "20",
+    "availableSeats": "2",
+    "pricePerSeat": "90000",
+    "date": "31/08/2025"
+  },
+  {
+    "CompanyName": "Lộc Thủy",
+    "busType": "Giường nằm",
+    "busNumber": "36A-78901",
+    "startCity": "Hà Tĩnh",
+    "destination": "Hà Nội",
+    "totalSeats": "40",
+    "availableSeats": "15",
+    "pricePerSeat": "250000",
+    "date": "01/09/2025"
+  },
+  {
+    "CompanyName": "Hồng Hà",
+    "busType": "Limousine",
+    "busNumber": "14B-22345",
+    "startCity": "Quảng Ninh",
+    "destination": "Lạng Sơn",
+    "totalSeats": "24",
+    "availableSeats": "6",
+    "pricePerSeat": "180000",
+    "date": "01/09/2025"
+  }
+]
