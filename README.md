@@ -1,145 +1,35 @@
-# MERN-BUS-APP
+# BOOK-TICKET-BUS-APP
 
+Một ứng dụng đặt vé xe buýt được xây dựng bằng MERN Stack (MongoDB, Express.js, React.js, Node.js)
 
-A Bus ticket booking application made using MERN Stack (MongoDB, Express js, React js, Node js)
-
-The Bus ticket application is composed of the following Features:
+Ứng dụng đặt vé xe buýt bao gồm các tính năng sau:
 
 ### Front-End
 
-* Sign-In & Sign-Up Pages.
+* Trang Đăng nhập & Đăng ký.
 
-* Uses Token based system, so only registered users can access the website  passport js.
+* Sử dụng hệ thống dựa trên Token, chỉ người dùng đã đăng ký mới có thể truy cập vào website bằng passport.js.
 
-* Password hashing using passport js.
+* Mã hóa mật khẩu bằng passport.js.
 
-* Has a profile page, which will display all information about the signed in user.
+* Có trang hồ sơ, hiển thị tất cả thông tin về người dùng đã đăng nhập.
 
-* List of cities for users to choose from (starting city & destination city). 
+* Danh sách các thành phố để người dùng lựa chọn (thành phố xuất phát & thành phố đích).
 
-* Getting list of bus's of different companies with various details.
+* Lấy danh sách các xe buýt của các công ty khác nhau với nhiều thông tin chi tiết.
 
-* Seat selection page has a very user friendly environment, which also generates dynamic forms for storing data's of passengers.
+* Trang chọn ghế có giao diện thân thiện với người dùng, đồng thời tạo các biểu mẫu động để lưu trữ dữ liệu của hành khách.
 
-* Has a Confirmation page, which gets a debit card data using react-credit-cards. This version of the application does not include handling the payment process. 
+* Có trang Xác nhận, thu thập dữ liệu thẻ ghi nợ bằng react-credit-cards. Phiên bản này của ứng dụng không bao gồm xử lý quy trình thanh toán.
 
-* Final page has a ticket displaying component, it displays all passenger data and also generates a random number as a transaction ID.
+* Trang cuối cùng có thành phần hiển thị vé, hiển thị tất cả dữ liệu của hành khách và tạo một số ngẫu nhiên làm ID giao dịch.
 
 ### Back-End
 
-* Uses Express js based application for the backend process.
+* Sử dụng ứng dụng dựa trên Express.js cho quy trình backend.
 
-* Uses MongoDB atlas for storing the collections.
+* Sử dụng MongoDB Atlas để lưu trữ các bộ sưu tập.
 
-* Uses passport js for authenticating user and token based system.
+* Sử dụng passport.js để xác thực người dùng và hệ thống dựa trên token.
 
-* Uses passport js for hashing the password before sending the data to the cloud.
-
-* This version does not support dynamic seat data being stored from cloud.
-
-
-This project also demonstrates:
-
-* a typcial React project layout structure
-
-**Screenshots:**
-Landing Page:
-
-![](documentationResources/bus.gif)
-
-Signing In Page:
-
-![](documentationResources/signin.png)
-
-Bus Selection Page:
-
-![](documentationResources/bus-page.png)
-
-Seat Selection Page:
-
-![](documentationResources/seatSelection.gif)
-
-Payment & Confirmation Page:
-![](documentationResources/payment.gif)
----
-
-## Developed With
-
-* [Visual Studio Code](https://code.visualstudio.com/) - A source code editor developed by Microsoft for Windows, Linux and macOS. It includes support for debugging, embedded Git control, syntax highlighting, intelligent code completion, snippets, and code refactoring
-* [Node.js](https://nodejs.org/en/) - Javascript runtime
-* [React](https://reactjs.org/) - A javascript library for building user interfaces
-* [Babel](https://babeljs.io/) - A transpiler for javascript
-* [Webpack](https://webpack.js.org/) - A module bundler
-* [SCSS](http://sass-lang.com/) - A css metalanguage
-* [Bootstrap 4](https://getbootstrap.com/) - Bootstrap is an open source toolkit for developing with HTML, CSS, and JS
-* [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
-* [Express js](http://expressjs.com/) - Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
-* [MongoDB atlas](https://www.mongodb.com/cloud/atlas) - MongoDB Atlas is the global cloud database service for modern applications.
-* [Passport Js](http://www.passportjs.org/) - Passport is authentication middleware for Node.js. Extremely flexible and modular, Passport can be unobtrusively dropped in to any Express-based web application.
----
-
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-
-The following software is required to be installed on your system:
-
-* Node 8.x
-* Npm 3.x
-
-Type the following commands in the terminal to verify your node and npm versions
-
-```bash
-node -v
-npm -v
-```
-
-### Install
-
-Follow the following steps to get development environment running.
-
-* Clone _'MERN-BUS-APP.git'_ repository from GitHub
-
-  ```bash
-  git clone https://github.com/AdityaKumawat97/MERN-BUS-APP.git
-  ```
-
-   _OR USING SSH_
-
-  ```bash
-  git clone git@github.com:AdityaKumawat97/MERN-BUS-APP.git
-  ```
-
-* Install node modules
-
-   ```bash
-   cd MERN-BUS-APP
-   cd frontend
-   npm install
-   cd..
-   cd backend
-   npm install
-   ```
-
-
-### Starting both front end and back end servers
-
-* Build application
-
-  This command will start the mongodb and the front end part.
-
-  ```bash
-  cd frontend
-  npm start
-  cd..
-  cd backend
-  npm run devStart
-  ```
-
-
----
-
-
+* Sử dụng passport.js để mã hóa mật khẩu trước khi gửi dữ liệu lên đám mây.
